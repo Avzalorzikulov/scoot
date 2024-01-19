@@ -1,0 +1,94 @@
+.site-main__hero {
+    position: relative;
+    margin-top: 21px;
+    background-image: url('./images/heroimg.jpg');
+    background-position: calc(50% + 0px);
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: 1440px;
+
+}
+
+.hero-container::before {
+    position: absolute;
+    content: "";
+    width: 94px;
+    height: 1px;
+    top: 320px;
+    left: calc(50% + -400px);
+    background-color: #D9D9D9;
+}
+
+.site-main__hero::before {
+    content: "";
+    position: absolute;
+    top: 337px;
+    left: calc(50% + 150px);
+    width: 590px;
+    height: 278px;
+    background-image: url('./images/burilgan.svg');
+    background-repeat: no-repeat;
+}
+
+.site-main__hero::after {
+    content: "";
+    position: absolute;
+    top: 337px;
+    left: calc(50% - 667px);
+    width: 590px;
+    height: 278px;
+    background-image: url('./images/tekkis.svg');
+    background-repeat: no-repeat;
+}
+
+.hero-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+.site-hero__title {
+    margin-left: 165px;
+    margin-bottom: 40px;
+    width: 500px;
+    height: 112px;
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    /* 100% */
+    letter-spacing: -2.5px;
+}
+
+.site-hero__text {
+    width: 405px;
+    height: 100px;
+    color: #FFF;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 166.667% */
+    margin-left: 260px;
+}
+
+.site-hero__link {
+    display: inline-block;
+    margin-top: 54px;
+    margin-left: 260px;
+    text-decoration: none;
+    padding-top: 24px;
+    width: 180px;
+    height: 43px;
+    background-color: #FCB72B;
+    color: #FFF;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
